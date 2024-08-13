@@ -1,11 +1,114 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
-    <title>PersonalPage</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página Pessoal</title>
+    <style>
+        /* Reset básico */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #fff; /* Fundo branco */
+            color: #333;
+            line-height: 1.6;
+        }
+
+        header {
+            background-color: #e63946; /* Vermelho */
+            color: #fff; /* Branco */
+            padding: 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            margin-bottom: 10px;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background: #fff; /* Branco */
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .section {
+            margin-bottom: 20px;
+        }
+
+        .section h2 {
+            margin-bottom: 10px;
+            color: #000; /* Preto */
+        }
+
+        .section p {
+            font-size: 1.2em;
+            color: #666;
+        }
+
+        .team-image {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+            border: 5px solid #000; /* Preto */
+        }
+
+        .contact {
+            font-size: 1.1em;
+        }
+
+        footer {
+            background-color: #e63946; /* Vermelho */
+            color: #fff; /* Branco */
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+
+        footer p {
+            margin: 0;
+        }
+
+        a {
+            color: #e63946; /* Vermelho para links */
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
 </head>
 <body>
-    <h1>Minha pagina</h1>
+    <header>
+        <h1>Bem-vindo à Minha Página Pessoal</h1>
+        <p>Saiba mais sobre mim e meus interesses</p>
+    </header>
 
+    <div class="container">
+        <section class="section">
+            <h2>Sobre Mim</h2>
+            <p>Olá! Meu nome é Gustavo, tenho 17 anos, sou estudande do SESI e faço curso de Desenvolvimento de Sistemas no SENAI. Gosto de praticar esportes, jogar videogames e de passar meu tempo livre assistindo a jogos e explorando novas atividades ao ar livre.</p>
+        </section>
+
+        <section class="section">
+            <h2>Time que Torço</h2>
+            <img src="https://s2-ge.glbimg.com/xQomBnrZMnR76Pn2m-OFaurDPEY=/0x0:5568x3712/600x0/smart/filters:gifv():strip_icc()/i.s3.glbimg.com/v1/AUTH_bc8228b6673f488aa253bbcb03c80ec5/internal_photos/bs/2023/O/j/rU1LiPRSWdsMZkB64Jnw/morumbi.jpg" alt="Logo do Time" class="team-image">
+            <p>Torço para o São Paulo FC, time da série A do Campeonato Brasileiro, campeão de tudo que disputou, com 3 mundiais, 3 libertadores, 1 Copa do Brasil, 1 Sul-Americana e 22 Campeonatos Paulistas. Acompanhar seus jogos faz parte da minha rotina.</p>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Gustavo. Todos os direitos reservados.</p>
+    </footer>
 </body>
 </html>
